@@ -1,0 +1,8 @@
+etape,lignes
+event_type invalides,3
+video_id invalides,0
+user/session invalides,935
+positions negatives,376
+positions > duree,370
+timestamps invalides,3631
+doublons,4286

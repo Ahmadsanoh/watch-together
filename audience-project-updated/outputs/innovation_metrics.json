@@ -1,0 +1,33 @@
+{
+  "baseline_mean": {
+    "MAE": 0.2245170956868153,
+    "RMSE": 0.26151417235800134,
+    "R2": -0.03098681946550741
+  },
+  "baseline_trend": {
+    "MAE": 0.11752047157397477,
+    "RMSE": 0.15630543079982345,
+    "R2": 0.6316923079593219
+  },
+  "model": {
+    "MAE": 0.02779046288209606,
+    "RMSE": 0.04149350603265642,
+    "R2": 0.9740448873221694
+  },
+  "improvement_vs_mean_mae_pct": 87.62211723918712,
+  "improvement_vs_trend_mae_pct": 76.3526622128954,
+  "improvement_vs_best_mae_pct": 76.3526622128954,
+  "feature_importance": {
+    "dropoff_relative_score": 0.311347675827846,
+    "dropoff_trend_3seg": 0.27476503511335315,
+    "start": 0.2587183959058265,
+    "n_pauses": 0.06465146683768606,
+    "n_seeks": 0.062135008720769755,
+    "avg_pause_rate": 0.013356023971617339,
+    "dropoff_rate": 0.007212595478531953,
+    "dropoff_velocity": 0.0027463366877739175,
+    "completion_acceleration": 0.0020769986859428572,
+    "avg_replay_rate": 0.00187313478597361,
+    "n_replays": 0.0011173279846788122
+  }
+}

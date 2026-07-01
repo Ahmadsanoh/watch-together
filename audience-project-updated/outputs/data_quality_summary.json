@@ -1,0 +1,11 @@
+{
+  "total_sessions": 12000,
+  "sessions_ecartees": 56,
+  "sessions_ecartees_pct": 0.47,
+  "sessions_fiables_pct": 99.53,
+  "breakdown": {
+    "anomalie_vitesse": 4,
+    "regularite_anormale": 2,
+    "sans_interaction_video_longue": 50
+  }
+}
