@@ -92,9 +92,11 @@ def kpi(label, value, icon, c1, c2, sub=""):
 def sec_title(t):
     st.markdown(f'<div class="section-title">{t}</div>', unsafe_allow_html=True)
 
+WT_URL = _os.environ.get("WATCH_TOGETHER_URL", "http://localhost:4000")
+
 def fetch(path, fallback=None, timeout=5):
     try:
-        r = requests.get(f"http://localhost:4000{path}", timeout=timeout)
+        r = requests.get(f"{WT_URL}{path}", timeout=timeout)
         r.raise_for_status(); return r.json()
     except Exception:
         return fallback
